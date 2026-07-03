@@ -41,3 +41,72 @@
 [2026-07-03T00:56:19.079Z] 12:56:19 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
 [2026-07-03T00:56:51.993Z] 12:56:51 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
 [2026-07-03T00:57:07.377Z] 12:57:07 AM [vite] (client) hmr update /src/index.css
+[2026-07-03T00:59:15.304Z] 12:59:15 AM [vite] (client) hmr update /src/pages/Home.tsx, /src/pages/HomeNew.tsx, /src/index.css
+[2026-07-03T00:59:29.544Z] 12:59:29 AM [vite] (client) hmr update /src/pages/Home.tsx, /src/pages/HomeNew.tsx, /src/index.css
+[2026-07-03T00:59:29.749Z] 12:59:29 AM [vite] (client) Pre-transform error: Transform failed with 1 error:
+[2026-07-03T00:59:29.749Z] /home/ubuntu/portal-das-compras-clone/client/src/data/products.ts:53:2: ERROR: Expected "]" but found "{"
+[2026-07-03T00:59:29.749Z] Plugin: vite:esbuild
+[2026-07-03T00:59:29.749Z] File: /home/ubuntu/portal-das-compras-clone/client/src/data/products.ts:53:2
+[2026-07-03T00:59:29.749Z] Expected "]" but found "{"
+[2026-07-03T00:59:29.749Z] 51 |      description: 'Luminária LED moderna com suporte integrado para celular. Oferece 3 níveis de brilho ajustáveis par...
+[2026-07-03T00:59:29.749Z] 52 |    }
+[2026-07-03T00:59:29.749Z] 53 |    {
+[2026-07-03T00:59:29.749Z] |    ^
+[2026-07-03T00:59:29.749Z] 54 |      id: '05ce805a-3b28-42cc-9460-012b019811d1',
+[2026-07-03T00:59:29.749Z] 55 |      name: 'Mochila Impermeável Antifurto USB 30L',
+[2026-07-03T00:59:29.749Z] 12:59:29 AM [vite] (client) Pre-transform error: Transform failed with 1 error:
+[2026-07-03T00:59:29.749Z] /home/ubuntu/portal-das-compras-clone/client/src/data/products.ts:53:2: ERROR: Expected "]" but found "{"
+[2026-07-03T00:59:29.749Z] Plugin: vite:esbuild
+[2026-07-03T00:59:29.749Z] File: /home/ubuntu/portal-das-compras-clone/client/src/data/products.ts:53:2
+[2026-07-03T00:59:29.750Z] Expected "]" but found "{"
+[2026-07-03T00:59:29.750Z] 51 |      description: 'Luminária LED moderna com suporte integrado para celular. Oferece 3 níveis de brilho ajustáveis par...
+[2026-07-03T00:59:29.750Z] 52 |    }
+[2026-07-03T00:59:29.750Z] 53 |    {
+[2026-07-03T00:59:29.750Z] |    ^
+[2026-07-03T00:59:29.750Z] 54 |      id: '05ce805a-3b28-42cc-9460-012b019811d1',
+[2026-07-03T00:59:29.750Z] 55 |      name: 'Mochila Impermeável Antifurto USB 30L',
+[2026-07-03T00:59:29.975Z] 12:59:29 AM [vite] Internal server error: Transform failed with 1 error:
+[2026-07-03T00:59:29.975Z] /home/ubuntu/portal-das-compras-clone/client/src/data/products.ts:53:2: ERROR: Expected "]" but found "{"
+[2026-07-03T00:59:29.975Z] Plugin: vite:esbuild
+[2026-07-03T00:59:29.975Z] File: /home/ubuntu/portal-das-compras-clone/client/src/data/products.ts:53:2
+[2026-07-03T00:59:29.975Z] Expected "]" but found "{"
+[2026-07-03T00:59:29.975Z] 51 |      description: 'Luminária LED moderna com suporte integrado para celular. Oferece 3 níveis de brilho ajustáveis par...
+[2026-07-03T00:59:29.975Z] 52 |    }
+[2026-07-03T00:59:29.975Z] 53 |    {
+[2026-07-03T00:59:29.975Z] |    ^
+[2026-07-03T00:59:29.975Z] 54 |      id: '05ce805a-3b28-42cc-9460-012b019811d1',
+[2026-07-03T00:59:29.975Z] 55 |      name: 'Mochila Impermeável Antifurto USB 30L',
+[2026-07-03T00:59:29.975Z] at failureErrorWithLog (/home/ubuntu/portal-das-compras-clone/node_modules/.pnpm/esbuild@0.25.10/node_modules/esbuild/lib/main.js:1467:15)
+[2026-07-03T00:59:29.975Z] at /home/ubuntu/portal-das-compras-clone/node_modules/.pnpm/esbuild@0.25.10/node_modules/esbuild/lib/main.js:736:50
+[2026-07-03T00:59:29.975Z] at responseCallbacks.<computed> (/home/ubuntu/portal-das-compras-clone/node_modules/.pnpm/esbuild@0.25.10/node_modules/esbuild/lib/main.js:603:9)
+[2026-07-03T00:59:29.975Z] at handleIncomingPacket (/home/ubuntu/portal-das-compras-clone/node_modules/.pnpm/esbuild@0.25.10/node_modules/esbuild/lib/main.js:658:12)
+[2026-07-03T00:59:29.975Z] at Socket.readFromStdout (/home/ubuntu/portal-das-compras-clone/node_modules/.pnpm/esbuild@0.25.10/node_modules/esbuild/lib/main.js:581:7)
+[2026-07-03T00:59:29.975Z] at Socket.emit (node:events:524:28)
+[2026-07-03T00:59:29.975Z] at addChunk (node:internal/streams/readable:561:12)
+[2026-07-03T00:59:29.975Z] at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+[2026-07-03T00:59:29.975Z] at Readable.push (node:internal/streams/readable:392:5)
+[2026-07-03T00:59:29.975Z] at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2026-07-03T00:59:30.095Z] 12:59:30 AM [vite] Internal server error: Transform failed with 1 error:
+[2026-07-03T00:59:30.095Z] /home/ubuntu/portal-das-compras-clone/client/src/data/products.ts:53:2: ERROR: Expected "]" but found "{"
+[2026-07-03T00:59:30.095Z] Plugin: vite:esbuild
+[2026-07-03T00:59:30.095Z] File: /home/ubuntu/portal-das-compras-clone/client/src/data/products.ts:53:2
+[2026-07-03T00:59:30.095Z] Expected "]" but found "{"
+[2026-07-03T00:59:30.095Z] 51 |      description: 'Luminária LED moderna com suporte integrado para celular. Oferece 3 níveis de brilho ajustáveis par...
+[2026-07-03T00:59:30.096Z] 52 |    }
+[2026-07-03T00:59:30.096Z] 53 |    {
+[2026-07-03T00:59:30.096Z] |    ^
+[2026-07-03T00:59:30.096Z] 54 |      id: '05ce805a-3b28-42cc-9460-012b019811d1',
+[2026-07-03T00:59:30.096Z] 55 |      name: 'Mochila Impermeável Antifurto USB 30L',
+[2026-07-03T00:59:30.096Z] at failureErrorWithLog (/home/ubuntu/portal-das-compras-clone/node_modules/.pnpm/esbuild@0.25.10/node_modules/esbuild/lib/main.js:1467:15)
+[2026-07-03T00:59:30.096Z] at /home/ubuntu/portal-das-compras-clone/node_modules/.pnpm/esbuild@0.25.10/node_modules/esbuild/lib/main.js:736:50
+[2026-07-03T00:59:30.096Z] at responseCallbacks.<computed> (/home/ubuntu/portal-das-compras-clone/node_modules/.pnpm/esbuild@0.25.10/node_modules/esbuild/lib/main.js:603:9)
+[2026-07-03T00:59:30.096Z] at handleIncomingPacket (/home/ubuntu/portal-das-compras-clone/node_modules/.pnpm/esbuild@0.25.10/node_modules/esbuild/lib/main.js:658:12)
+[2026-07-03T00:59:30.096Z] at Socket.readFromStdout (/home/ubuntu/portal-das-compras-clone/node_modules/.pnpm/esbuild@0.25.10/node_modules/esbuild/lib/main.js:581:7)
+[2026-07-03T00:59:30.096Z] at Socket.emit (node:events:524:28)
+[2026-07-03T00:59:30.096Z] at addChunk (node:internal/streams/readable:561:12)
+[2026-07-03T00:59:30.096Z] at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+[2026-07-03T00:59:30.096Z] at Readable.push (node:internal/streams/readable:392:5)
+[2026-07-03T00:59:30.096Z] at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2026-07-03T00:59:34.214Z] 12:59:34 AM [vite] (client) hmr update /src/pages/Home.tsx, /src/pages/HomeNew.tsx, /src/index.css
+[2026-07-03T01:00:02.972Z] 1:00:02 AM [vite] (client) hmr update /src/components/ProductCard.tsx, /src/index.css
+[2026-07-03T01:00:07.940Z] 1:00:07 AM [vite] (client) hmr update /src/App.tsx, /src/index.css

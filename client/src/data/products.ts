@@ -6,6 +6,7 @@ export interface Product {
   category: 'beleza' | 'casa' | 'eletronicos' | 'esportes' | 'moda' | 'outros';
   image: string;
   discount: number;
+  description?: string;
 }
 
 export const products: Product[] = [
@@ -17,6 +18,7 @@ export const products: Product[] = [
     category: 'eletronicos',
     image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800',
     discount: 37.40,
+    description: 'Fone de ouvido sem fio com tecnologia Bluetooth 5.0. Oferece som de alta qualidade com graves profundos e agudos cristalinos. Bateria de longa duração com até 6 horas de reprodução contínua. Inclui estojo de carga que oferece 3 cargas adicionais. Resistente à água IPX5, ideal para uso durante exercícios. Controles touch intuitivos para gerenciar música e chamadas.',
   },
   {
     id: '40ca0f77-ed7a-47a1-87ea-98adaee9ce6b',
@@ -26,6 +28,7 @@ export const products: Product[] = [
     category: 'eletronicos',
     image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800',
     discount: 36.90,
+    description: 'Relógio inteligente com tela colorida de 1.3 polegadas. Monitora frequência cardíaca, passos, calorias queimadas e qualidade do sono. Resistente à água até 50 metros, perfeito para natação. Bateria dura até 7 dias com uma carga. Compatível com iOS e Android. Inclui múltiplos modos de esporte e notificações em tempo real.',
   },
   {
     id: '86b3d238-bf47-474b-90be-5e24bd81bc0e',
@@ -35,6 +38,7 @@ export const products: Product[] = [
     category: 'eletronicos',
     image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800',
     discount: 36.30,
+    description: 'Caixa de som portátil com potência de 10W de som estéreo de alta qualidade. Certificação IPX7 para resistência total à água, ideal para piscinas e praia. Bateria recarregável com autonomia de até 12 horas. Conectividade Bluetooth 5.0 com alcance de 30 metros. Peso leve de apenas 400g, perfeita para levar em viagens.',
   },
   {
     id: '3a5870aa-c698-4e4b-a133-22463080e526',
@@ -44,6 +48,7 @@ export const products: Product[] = [
     category: 'casa',
     image: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800',
     discount: 37.20,
+    description: 'Luminária LED moderna com suporte integrado para celular. Oferece 3 níveis de brilho ajustáveis para diferentes ambientes. Luz branca neutra que não causa fadiga ocular. Suporte flexível que acomoda celulares de diferentes tamanhos. Consome pouca energia, ideal para economizar na conta de luz. Perfeita para mesas de trabalho, quartos e salas.',
   },
   {
     id: '05ce805a-3b28-42cc-9460-012b019811d1',

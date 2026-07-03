@@ -11,6 +11,7 @@ import CheckoutAsaas from "./pages/CheckoutAsaas";
 import Confirmation from "./pages/Confirmation";
 import AdminLogin from "./pages/AdminLogin";
 import AdminPanel from "./pages/AdminPanel";
+import ProductDetail from "./pages/ProductDetail";
 
 
 function Router() {
@@ -20,6 +21,7 @@ function Router() {
       <Route path="/carrinho" component={Cart} />
       <Route path="/checkout" component={CheckoutAsaas} />
       <Route path="/confirmacao" component={Confirmation} />
+      <Route path="/produto" component={ProductDetail} />
       <Route path="/admin/login" component={AdminLogin} />
       <Route path="/admin" component={AdminPanel} />
       <Route path="/404" component={NotFound} />
