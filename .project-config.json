@@ -1,0 +1,34 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/SRmtfWUCCDoEX7JAxCyLfE.git",
+    "expiration": "2026-07-04T00:00:13.664Z",
+    "token": "art_v1_17959e723a47d068c2538859e436025cd1c39b56?expires=1783123213",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "portal-das-compras-clone",
+  "path": "/home/ubuntu/portal-das-compras-clone",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "UJUxR3d4w2LUwvnSshSXJz",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "mhQUZJdgnCoju2tJNSLBf2",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Gabrielly Horrany",
+    "OWNER_OPEN_ID": "QiEt5kqcZLaGNnTScvLV5R",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "573e8fa0-016a-4696-820c-bd7ed3902a17",
+    "VITE_APP_ID": "SRmtfWUCCDoEX7JAxCyLfE",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Portal das Compras Clone",
+    "VITE_FRONTEND_FORGE_API_KEY": "YMtwQyQDVZaCDJySdquqB9",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}

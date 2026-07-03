@@ -5,19 +5,23 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { CartProvider } from "./contexts/CartContext";
-import Home from "./pages/Home";
+import HomeNew from "./pages/HomeNew";
 import Cart from "./pages/Cart";
 import CheckoutAsaas from "./pages/CheckoutAsaas";
 import Confirmation from "./pages/Confirmation";
+import AdminLogin from "./pages/AdminLogin";
+import AdminPanel from "./pages/AdminPanel";
 
 
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Home} />
+      <Route path="/" component={HomeNew} />
       <Route path="/carrinho" component={Cart} />
       <Route path="/checkout" component={CheckoutAsaas} />
       <Route path="/confirmacao" component={Confirmation} />
+      <Route path="/admin/login" component={AdminLogin} />
+      <Route path="/admin" component={AdminPanel} />
       <Route path="/404" component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

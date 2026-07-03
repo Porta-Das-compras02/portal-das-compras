@@ -403,7 +403,6 @@ export default function CheckoutAsaas() {
                         />
                         <div>
                           <span className="font-semibold text-gray-900">PIX</span>
-                          <p className="text-sm text-gray-600">Taxa: 0,99%</p>
                         </div>
                       </div>
                     </label>
@@ -421,7 +420,6 @@ export default function CheckoutAsaas() {
                         />
                         <div>
                           <span className="font-semibold text-gray-900">Boleto Bancário</span>
-                          <p className="text-sm text-gray-600">Taxa: 2,99%</p>
                         </div>
                       </div>
                     </label>
@@ -439,7 +437,6 @@ export default function CheckoutAsaas() {
                         />
                         <div>
                           <span className="font-semibold text-gray-900">Cartão de Crédito</span>
-                          <p className="text-sm text-gray-600">Taxa: 2,99%</p>
                         </div>
                       </div>
                     </label>

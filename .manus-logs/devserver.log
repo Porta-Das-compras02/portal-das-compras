@@ -1,0 +1,43 @@
+[2026-07-03T00:00:22.093Z] Starting dev server with command: pnpm run dev
+[2026-07-03T00:00:24.053Z] > portal-das-compras-clone@1.0.0 dev /home/ubuntu/portal-das-compras-clone
+[2026-07-03T00:00:24.053Z] > vite --host
+[2026-07-03T00:00:24.512Z] VITE v7.1.9  ready in 418 ms
+[2026-07-03T00:00:24.512Z] ➜  Local:   http://localhost:3000/
+[2026-07-03T00:00:24.512Z] ➜  Network: http://169.254.0.21:3000/
+[2026-07-03T00:02:36.991Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-07-03T00:02:38.731Z] 12:02:38 AM [vite] (client) ✨ new dependencies optimized: @radix-ui/react-dialog
+[2026-07-03T00:02:38.731Z] 12:02:38 AM [vite] (client) ✨ optimized dependencies changed. reloading
+[2026-07-03T00:03:21.157Z] 12:03:21 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+[2026-07-03T00:03:22.006Z] 12:03:22 AM [vite] (client) Pre-transform error: /home/ubuntu/portal-das-compras-clone/client/src/App.tsx: Expecting Unicode escape sequence \uXXXX. (17:20)
+[2026-07-03T00:03:22.006Z] 15 |   return (
+[2026-07-03T00:03:22.006Z] 16 |     <Switch>
+[2026-07-03T00:03:22.006Z] > 17 |       <Route path={\"\"} component={Home} />
+[2026-07-03T00:03:22.006Z] |                     ^
+[2026-07-03T00:03:22.006Z] 18 |       <Route path={\"/carrinho\"} component={Cart} />
+[2026-07-03T00:03:22.006Z] 19 |       <Route path={\"/checkout\"} component={Checkout} />
+[2026-07-03T00:03:22.006Z] 20 |       <Route path={\"/confirmacao\"} component={Confirmation} />
+[2026-07-03T00:03:22.006Z] Plugin: vite:react-babel
+[2026-07-03T00:03:22.006Z] File: /home/ubuntu/portal-das-compras-clone/client/src/App.tsx:17:20
+[2026-07-03T00:03:22.006Z] 15 |    return (
+[2026-07-03T00:03:22.006Z] 16 |      <Switch>
+[2026-07-03T00:03:22.006Z] 17 |        <Route path={\"\"} component={Home} />
+[2026-07-03T00:03:22.006Z] |                      ^
+[2026-07-03T00:03:22.006Z] 18 |        <Route path={\"/carrinho\"} component={Cart} />
+[2026-07-03T00:03:22.006Z] 19 |        <Route path={\"/checkout\"} component={Checkout} />
+[2026-07-03T00:03:26.764Z] 12:03:26 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+[2026-07-03T00:03:35.450Z] 12:03:35 AM [vite] (client) ✨ new dependencies optimized: @radix-ui/react-label
+[2026-07-03T00:03:35.450Z] 12:03:35 AM [vite] (client) ✨ optimized dependencies changed. reloading
+[2026-07-03T00:03:37.206Z] ELIFECYCLE  Command failed.
+[2026-07-03T00:03:37.258Z] Dev server exited with code -1
+[2026-07-03T00:03:38.332Z] Starting dev server with command: pnpm run dev
+[2026-07-03T00:03:38.947Z] > portal-das-compras-clone@1.0.0 dev /home/ubuntu/portal-das-compras-clone
+[2026-07-03T00:03:38.947Z] > vite --host
+[2026-07-03T00:03:39.326Z] VITE v7.1.9  ready in 335 ms
+[2026-07-03T00:03:39.326Z] ➜  Local:   http://localhost:3000/
+[2026-07-03T00:03:39.326Z] ➜  Network: http://169.254.0.21:3000/
+[2026-07-03T00:03:40.032Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-07-03T00:24:45.719Z] 12:24:45 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+[2026-07-03T00:55:20.331Z] 12:55:20 AM [vite] (client) hmr update /src/index.css, /src/pages/CheckoutAsaas.tsx
+[2026-07-03T00:56:19.079Z] 12:56:19 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+[2026-07-03T00:56:51.993Z] 12:56:51 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+[2026-07-03T00:57:07.377Z] 12:57:07 AM [vite] (client) hmr update /src/index.css
