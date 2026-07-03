@@ -7,7 +7,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import { CartProvider } from "./contexts/CartContext";
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
-import Checkout from "./pages/Checkout";
+import CheckoutAsaas from "./pages/CheckoutAsaas";
 import Confirmation from "./pages/Confirmation";
 
 
@@ -16,7 +16,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/carrinho" component={Cart} />
-      <Route path="/checkout" component={Checkout} />
+      <Route path="/checkout" component={CheckoutAsaas} />
       <Route path="/confirmacao" component={Confirmation} />
       <Route path="/404" component={NotFound} />
       {/* Final fallback route */}
